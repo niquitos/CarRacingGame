@@ -58,7 +58,7 @@ namespace car_racing_game
             {
                 enemy1.Top = -1 * carHeight;
                 enemy1.Left = position[r.Next(0, 4)];
-                score++;
+                score=score+1;
                 score0ToolStripMenuItem.Text = $"Score: {score}";
             }
             else
